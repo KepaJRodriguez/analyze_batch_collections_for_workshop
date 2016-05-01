@@ -119,6 +119,7 @@ public class ExtractEntities {
 						entity_string = sortedWords.get(key);
 					}
 				}
+				System.out.println(entity_string);
 				organization.add(entity_string);
 			}
 			if (entities.get(i).type.equals("PERSON")) {
